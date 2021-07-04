@@ -38,13 +38,14 @@ h1 {
 
 .valhalla {
     margin-top: 30px;
+    margin-bottom: 150px;
     display: flex;
     background-image: url(images/valhalla.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
-.components-text {
+.text {
     width: 50%;
     padding-right: 10%;
     padding-top: 5%;
@@ -57,4 +58,56 @@ h1 {
     color: white;
     font-weight: 800;
     border-radius: 5px;
+}
+
+.xp {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.xp h1 {
+    margin-left: 70px;
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.experience h1 {
+    font-size: 30px;
+}
+
+.experience h3 {
+    font-size: 15px;
+}
+
+.experience p {
+    font-size: 12px;
+}
+
+.experience-components {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#left-com {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, lightblue);
+    border-image-slice: 1;
+}
+
+#right-com {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, lightblue);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
