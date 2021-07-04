@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.got {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.components {
+    width: 50%;
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.components img {
+    width: 80%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.different-color {
+    color: tomato;
+}
+
+.my-link {
+    text-decoration: none;
+    padding: 7px 20px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+}
