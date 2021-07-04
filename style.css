@@ -35,3 +35,26 @@ h1 {
     font-weight: 800;
     border-radius: 5px;
 }
+
+.valhalla {
+    margin-top: 30px;
+    display: flex;
+    background-image: url(images/valhalla.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.components-text {
+    width: 50%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.my-about {
+    text-decoration: none;
+    padding: 7px 20px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+}
